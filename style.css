@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-container{
+    display:flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+}
+
+ul >li{
+    display: inline;
+   
+}
+
+ul li a{
+    text-decoration: none;
+   color: black;
+   padding: 10px;
+   font-size: 13px;
+}
+.button{
+    background-color: #2563EB;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 25px 10px 25px ; 
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 95px;
+}
+li > a.link:hover
+{
+    text-decoration: underline;
+}
+.link-list a.button:hover{
+    
+}
+.input-link{
+   
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 170px;
+   
+}
+.input{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    align-items: center;
+}
+input{
+   width: 400px;
+   height: 40px;   
+   border:none;
+}
+.bottom-button{
+   
+   background-color: #f0f0f5;
+   margin: 0 20px;
+}
+.link-bottom{
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+}
+.middle-portion a:hover{
+    text-decoration: underline;
+}
+.middle-portion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    justify-content: space-between;
+    height: 90px;
+   
+}
+.link-buttons a.bottom-button:hover{
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 5px;
+    box-shadow: rgb(194, 191, 191);
+}
+.bottom-footer{
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    background-color: #f0f0f5;
+    color: gray;
+   margin-top: 8.5%;
+    
+}
+.bottom-footer1{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    background-color: #f0f0f5;
+    
+}
+
+.listleft-bottom a{
+   
+    color: gray;
+}
+.listright-bottom a{
+    color: gray;
+
+    
+}
+.country{
+    margin-left: 10px;
+}
+
